@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Short-circuit on { VisualArtisan }</title>
+    <link>https://hub.visualartisan.fr/tags/short-circuit/</link>
+    <description>Recent content in Short-circuit on { VisualArtisan }</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Nov 2023 01:25:32 +0100</lastBuildDate><atom:link href="https://hub.visualartisan.fr/tags/short-circuit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Short-circuit evaluation in JavaScript</title>
+      <link>https://hub.visualartisan.fr/posts/shortcircuiting/</link>
+      <pubDate>Sun, 12 Nov 2023 01:25:32 +0100</pubDate>
+      
+      <guid>https://hub.visualartisan.fr/posts/shortcircuiting/</guid>
+      <description>In JavaScript, short-circuiting is a technique that uses the lazy evaluation of logical operators like &amp;amp;&amp;amp; (logical AND) and || (logical OR) to execute a conditional expression.
+Consider the following example, where if the condition is true, nextSlide() is called:
+if (e.key === &amp;#34;ArrowRight&amp;#34;) { nextSlide(); } Using short-circuiting, the same logic can be written more concisely:
+e.key === &amp;#34;ArrowRight&amp;#34; &amp;amp;&amp;amp; nextSlide(); Here&amp;rsquo;s how the short-circuiting works in this expression:</description>
+    </item>
+    
+  </channel>
+</rss>
