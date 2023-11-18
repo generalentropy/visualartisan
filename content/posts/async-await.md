@@ -1,6 +1,6 @@
 ---
 date: "2023-11-12T01:07:24+01:00"
-draft: false
+draft: true
 title: "Async/await VS .then() method"
 tags: ["Async/await", "javascript", "code", "then method"]
 ---
