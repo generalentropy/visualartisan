@@ -1,77 +1,63 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta
-  name="viewport"
-  content="width=device-width, initial-scale=1, shrink-to-fit=no"
-/>
-<meta name="robots" content="index, follow" />
-<title>
-  i&#43;1 vs i&#43;&#43; and side effect | { VisualArtisan }
-</title>
-<meta
-  name="keywords"
-  content="javascript, Side Effects, code"
-/> <meta name="description" content="i = i&#43;1 vs i&#43;&#43; and Side Effects i&#43;&#43; and i = i &#43; 1 are quite similar in that they both increase the value of i by 1. However, there are some subtle differences between them, especially when used in more complex expressions.
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>i&#43;1 vs i&#43;&#43; and side effect | { VisualArtisan }</title>
+<meta name="keywords" content="javascript, Side Effects, code">
+<meta name="description" content="i = i&#43;1 vs i&#43;&#43; and Side Effects i&#43;&#43; and i = i &#43; 1 are quite similar in that they both increase the value of i by 1. However, there are some subtle differences between them, especially when used in more complex expressions.
 i&#43;&#43; (Postfix Increment)
-let i = 0; let a = i&#43;&#43;; // a takes the value 0, and i is now 1 The value of i is increased by 1."> <meta name="author" content=""> <link rel="canonical" href="https://hub.visualartisan.fr/posts/sideeffect/">
-<link
-  crossorigin="anonymous"
-  href="/assets/css/stylesheet.css"
-  rel="preload stylesheet"
-  as="style"
-/>
-<script
-  defer
-  crossorigin="anonymous"
-  src="/assets/js/highlight.js"
-  onload="hljs.initHighlightingOnLoad();"
-></script> <link rel="icon" href="https://hub.visualartisan.fr/favicon.ico"> <link
-rel="icon" type="image/png" sizes="16x16" href="https://hub.visualartisan.fr/favicon-16x16.png">
+let i = 0; let a = i&#43;&#43;; // a takes the value 0, and i is now 1 The value of i is increased by 1.">
+<meta name="author" content="">
+<link rel="canonical" href="https://hub.visualartisan.fr/posts/sideeffect/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://hub.visualartisan.fr/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://hub.visualartisan.fr/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://hub.visualartisan.fr/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://hub.visualartisan.fr/apple-touch-icon.png"> <link rel="mask-icon" href="https://hub.visualartisan.fr/safari-pinned-tab.svg"> <meta name="theme-color" content="#2e2e33"> <meta name="msapplication-TileColor" content="#2e2e33"> <noscript>
-  <style>
-    #theme-toggle,
-    .top-link {
-      display: none;
-    }
-  </style>
-  <style>
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --theme: rgb(29, 30, 32);
-        --entry: rgb(46, 46, 51);
-        --primary: rgb(218, 218, 219);
-        --secondary: rgb(155, 156, 157);
-        --tertiary: rgb(65, 66, 68);
-        --content: rgb(196, 196, 197);
-        --hljs-bg: rgb(46, 46, 51);
-        --code-bg: rgb(55, 56, 62);
-        --border: rgb(51, 51, 51);
-      }
+<link rel="apple-touch-icon" href="https://hub.visualartisan.fr/apple-touch-icon.png">
+<link rel="mask-icon" href="https://hub.visualartisan.fr/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
-      .list {
-        background: var(--theme);
-      }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
 
-      .list:not(.dark)::-webkit-scrollbar-track {
-        background: 0 0;
-      }
+            .list {
+                background: var(--theme);
+            }
 
-      .list:not(.dark)::-webkit-scrollbar-thumb {
-        border-color: var(--theme);
-      }
-    }
-  </style>
-</noscript><link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.1/styles/dracula.min.css"
-  integrity="sha512-UPcL+5Ec/OV1+OGGgpK9ZS1NLz/sXczHAYUkSaSMQjgIYufontU+rYGAkK9B//Oze4cFTLfLnzNtsI+cG2FwjQ=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-/><meta property="og:title" content="i&#43;1 vs i&#43;&#43; and side effect" />
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="i&#43;1 vs i&#43;&#43; and side effect" />
 <meta property="og:description" content="i = i&#43;1 vs i&#43;&#43; and Side Effects i&#43;&#43; and i = i &#43; 1 are quite similar in that they both increase the value of i by 1. However, there are some subtle differences between them, especially when used in more complex expressions.
 i&#43;&#43; (Postfix Increment)
 let i = 0; let a = i&#43;&#43;; // a takes the value 0, and i is now 1 The value of i is increased by 1." />
