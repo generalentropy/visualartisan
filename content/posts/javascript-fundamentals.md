@@ -12,7 +12,7 @@ tags: ["javascript", "beginner", "code"]
 
 ![javascript](/img/posts/javascript.jpg)
 
-I've come up with the idea of starting a series of articles on programming, specifically aimed at addressing the questions I encountered as a beginner on my JavaScript journey
+I've come up with the idea of starting a series of articles on programming, specifically aimed at addressing the questions I encountered as a beginner on my JavaScript journey.
 
 This includes things that might seem evident or trivial, but are not so obvious for a beginner.
 
