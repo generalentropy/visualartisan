@@ -16,7 +16,7 @@ I've come up with the idea of starting a series of articles on programming, spec
 
 This includes things that might seem evident or trivial, but are not so obvious for a beginner.
 
-Sometimes, knowing how to use things is sufficient, but there are people who feel frustrated when they don't fully understand how these things work. Because of this lack of understanding, they often find themselves stuck. I am one of these people
+Sometimes, knowing how to use things is sufficient, but there are people who feel frustrated when they don't fully understand how these things work. Because of this lack of understanding, they often find themselves stuck. I am one of these people.
 
 These articles are the result of all my personal notes that I've compiled over months.
 
