@@ -12,7 +12,7 @@ tags: ["javascript", "useState()", "code", "hook", "react"]
 
 ![javascript](/img/posts/react.jpg)
 
-S'il y a bien une chose avec React qui m'a donné du mal, ce sont les mises à jour d'état et surtout la nature asynchrone de ces mises à jour. Je n'arrivais pas à y voir clair et bien comprendre ce qui se passait _behind the scenes_. C'est à dire : quand est-ce que l'état était réellement mis à jour ? Quand les composants étaient-ils rendus ? et surtout pourquoi ça fonctionnait ainsi.
+S'il y a une chose avec React que j'avais du mal à comprendre, ce sont les mises à jour d'état et surtout la nature asynchrone de ces mises à jour. Je n'arrivais pas à y voir clair et bien comprendre ce qui se passait _behind the scenes_. C'est à dire : quand est-ce que l'état était réellement mis à jour ? Quand les composants étaient-ils rendus ? et surtout pourquoi ça fonctionnait ainsi.
 
 Je les utilisais, ça fonctionnait, mais sans vraiment comprendre.
 
