@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 11 Nov 2023 15:50:17 +0100</lastBuildDate><atom:link href="https://hub.visualartisan.fr/tags/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>React - Mises à jour d&#39;état</title>
-      <link>https://hub.visualartisan.fr/posts/javascript-fundamentals/</link>
+      <link>https://hub.visualartisan.fr/posts/reactstatehook/</link>
       <pubDate>Sat, 11 Nov 2023 15:50:17 +0100</pubDate>
       
-      <guid>https://hub.visualartisan.fr/posts/javascript-fundamentals/</guid>
+      <guid>https://hub.visualartisan.fr/posts/reactstatehook/</guid>
       <description>S&amp;rsquo;il y a bien une chose avec React qui m&amp;rsquo;a donné du mal, ce sont les mises à jour d&amp;rsquo;état et surtout la nature asynchrone de ces mises à jour. Je n&amp;rsquo;arrivais pas à y voir clair et bien comprendre ce qui se passait behind the scenes. C&amp;rsquo;est à dire : quand est-ce que l&amp;rsquo;état était réellement mis à jour ? Quand les composants étaient-ils rendus ? et surtout pourquoi ça fonctionnait ainsi.</description>
     </item>
     
