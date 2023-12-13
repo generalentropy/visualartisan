@@ -5,50 +5,15 @@
     <link>https://hub.visualartisan.fr/tags/javascript/</link>
     <description>Recent content in javascript on { VisualArtisan }</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 12 Nov 2023 01:25:32 +0100</lastBuildDate><atom:link href="https://hub.visualartisan.fr/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr</language>
+    <lastBuildDate>Sat, 11 Nov 2023 15:50:17 +0100</lastBuildDate><atom:link href="https://hub.visualartisan.fr/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>JavaScript Fundamentals</title>
+      <title>React - Mises à jour d&#39;état</title>
       <link>https://hub.visualartisan.fr/posts/javascript-fundamentals/</link>
       <pubDate>Sat, 11 Nov 2023 15:50:17 +0100</pubDate>
       
       <guid>https://hub.visualartisan.fr/posts/javascript-fundamentals/</guid>
-      <description>I&amp;rsquo;ve come up with the idea of starting a series of articles on programming, specifically aimed at addressing the questions I encountered as a beginner on my JavaScript journey.
-This includes things that might seem evident or trivial, but are not so obvious for a beginner.
-Sometimes, knowing how to use things is sufficient, but there are people who feel frustrated when they don&amp;rsquo;t fully understand how these things work.</description>
-    </item>
-    
-    <item>
-      <title>Short-circuit evaluation in JavaScript</title>
-      <link>https://hub.visualartisan.fr/posts/shortcircuiting/</link>
-      <pubDate>Sun, 12 Nov 2023 01:25:32 +0100</pubDate>
-      
-      <guid>https://hub.visualartisan.fr/posts/shortcircuiting/</guid>
-      <description>In JavaScript, short-circuiting is a technique that uses the lazy evaluation of logical operators like &amp;amp;&amp;amp; (logical AND) and || (logical OR) to execute a conditional expression.
-Consider the following example, where if the condition is true, nextSlide() is called:
-if (e.key === &amp;#34;ArrowRight&amp;#34;) { nextSlide(); } Using short-circuiting, the same logic can be written more concisely:
-e.key === &amp;#34;ArrowRight&amp;#34; &amp;amp;&amp;amp; nextSlide(); Here&amp;rsquo;s how the short-circuiting works in this expression:</description>
-    </item>
-    
-    <item>
-      <title>Async/await VS .then() method</title>
-      <link>https://hub.visualartisan.fr/posts/async-await/</link>
-      <pubDate>Sun, 12 Nov 2023 01:07:24 +0100</pubDate>
-      
-      <guid>https://hub.visualartisan.fr/posts/async-await/</guid>
-      <description>Async/await : the differences, and when and why to choose one over the other Advantages of async/await
-Readability: Code written with async/await often looks more synchronous and is easier to follow, making it generally more readable. Error Handling: You can use try/catch blocks to handle both synchronous and asynchronous errors, which can make error-handling logic more straightforward. Debugging: Debugging is often easier with async/await because it allows you to step through your code just like you would with synchronous code.</description>
-    </item>
-    
-    <item>
-      <title>i&#43;1 vs i&#43;&#43; and side effect</title>
-      <link>https://hub.visualartisan.fr/posts/sideeffect/</link>
-      <pubDate>Sun, 12 Nov 2023 00:53:53 +0100</pubDate>
-      
-      <guid>https://hub.visualartisan.fr/posts/sideeffect/</guid>
-      <description>i = i+1 vs i++ and Side Effects i++ and i = i + 1 are quite similar in that they both increase the value of i by 1. However, there are some subtle differences between them, especially when used in more complex expressions.
-i++ (Postfix Increment)
-let i = 0; let a = i++; // a takes the value 0, and i is now 1 The value of i is increased by 1.</description>
+      <description>S&amp;rsquo;il y a bien une chose avec React qui m&amp;rsquo;a donné du mal, ce sont les mises à jour d&amp;rsquo;état et surtout la nature asynchrone de ces mises à jour. Je n&amp;rsquo;arrivais pas à y voir clair et bien comprendre ce qui se passait behind the scenes. C&amp;rsquo;est à dire : quand est-ce que l&amp;rsquo;état était réellement mis à jour ? Quand les composants étaient-ils rendus ? et surtout pourquoi ça fonctionnait ainsi.</description>
     </item>
     
   </channel>

@@ -5,68 +5,50 @@
     <link>https://hub.visualartisan.fr/tags/</link>
     <description>Recent content in Tags on { VisualArtisan }</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 12 Nov 2023 01:25:32 +0100</lastBuildDate><atom:link href="https://hub.visualartisan.fr/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr</language>
+    <lastBuildDate>Sat, 11 Nov 2023 15:50:17 +0100</lastBuildDate><atom:link href="https://hub.visualartisan.fr/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>code</title>
       <link>https://hub.visualartisan.fr/tags/code/</link>
-      <pubDate>Sun, 12 Nov 2023 01:25:32 +0100</pubDate>
+      <pubDate>Sat, 11 Nov 2023 15:50:17 +0100</pubDate>
       
       <guid>https://hub.visualartisan.fr/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>hook</title>
+      <link>https://hub.visualartisan.fr/tags/hook/</link>
+      <pubDate>Sat, 11 Nov 2023 15:50:17 +0100</pubDate>
+      
+      <guid>https://hub.visualartisan.fr/tags/hook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>javascript</title>
       <link>https://hub.visualartisan.fr/tags/javascript/</link>
-      <pubDate>Sun, 12 Nov 2023 01:25:32 +0100</pubDate>
+      <pubDate>Sat, 11 Nov 2023 15:50:17 +0100</pubDate>
       
       <guid>https://hub.visualartisan.fr/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Short-circuit</title>
-      <link>https://hub.visualartisan.fr/tags/short-circuit/</link>
-      <pubDate>Sun, 12 Nov 2023 01:25:32 +0100</pubDate>
-      
-      <guid>https://hub.visualartisan.fr/tags/short-circuit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>then method</title>
-      <link>https://hub.visualartisan.fr/tags/then-method/</link>
-      <pubDate>Sun, 12 Nov 2023 01:07:24 +0100</pubDate>
-      
-      <guid>https://hub.visualartisan.fr/tags/then-method/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Side Effects</title>
-      <link>https://hub.visualartisan.fr/tags/side-effects/</link>
-      <pubDate>Sun, 12 Nov 2023 00:53:53 +0100</pubDate>
-      
-      <guid>https://hub.visualartisan.fr/tags/side-effects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>beginner</title>
-      <link>https://hub.visualartisan.fr/tags/beginner/</link>
+      <title>react</title>
+      <link>https://hub.visualartisan.fr/tags/react/</link>
       <pubDate>Sat, 11 Nov 2023 15:50:17 +0100</pubDate>
       
-      <guid>https://hub.visualartisan.fr/tags/beginner/</guid>
+      <guid>https://hub.visualartisan.fr/tags/react/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Async/await</title>
-      <link>https://hub.visualartisan.fr/tags/async/await/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>useState()</title>
+      <link>https://hub.visualartisan.fr/tags/usestate/</link>
+      <pubDate>Sat, 11 Nov 2023 15:50:17 +0100</pubDate>
       
-      <guid>https://hub.visualartisan.fr/tags/async/await/</guid>
+      <guid>https://hub.visualartisan.fr/tags/usestate/</guid>
       <description></description>
     </item>
     
