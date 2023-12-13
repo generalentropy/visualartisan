@@ -80,7 +80,7 @@ Lorsque vous avez des mises à jour d'état dans des fonctions imbriquées, le m
 **Cela signifie que même si vous avez des mises à jour d'état dans des fonctions imbriquées ou des callbacks, React les regroupe et les applique en une seule fois à la fin de l'exécution du contexte englobant.**
 
 ```
-function setSomeState() {
+function someFunction() {
   // du code
 
   // Mise à jour d'état 1
@@ -101,7 +101,7 @@ function setSomeState() {
 
 ```
 
-Dans cet exemple, `setSomeState`, `setAnotherState` et `setYetAnotherState` sont toutes planifiées pour être mises à jour après la fin de l'exécution de `someFunction`, y compris l'exécution de `nestedFunction`. Il n'y aura pas de rendus séparés pour chaque mise à jour d'état ; au lieu de cela, un seul rendu se produira qui reflète toutes ces mises à jour.
+Dans cet exemple, `setSomeState`, `setAnotherState` et `setYetAnotherState` sont toutes planifiées pour être mises à jour après la fin de l'exécution de `someFunction`, y compris l'exécution de `nestedFunction`. Il n'y aura pas de rendus séparés pour chaque mise à jour d'état, au lieu de cela, un seul rendu qui reflètera toutes ces mises à jour se produira.
 
 ### Revenons à la fonction `fetchMovies()`
 
