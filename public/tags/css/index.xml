@@ -8,14 +8,15 @@
     <language>fr</language>
     <lastBuildDate>Tue, 05 Dec 2023 09:10:22 +0100</lastBuildDate><atom:link href="https://hub.visualartisan.fr/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Sass, du CSS, mais en mieux</title>
+      <title>SASS, du CSS, mais en mieux</title>
       <link>https://hub.visualartisan.fr/posts/sass/</link>
       <pubDate>Tue, 05 Dec 2023 09:10:22 +0100</pubDate>
       
       <guid>https://hub.visualartisan.fr/posts/sass/</guid>
-      <description>Je rencontrais souvent sur CodePen du SASS, SCSS , Less, Stylus etc.
-J&amp;rsquo;avais une idée générale que cela représentait une autre syntaxe CSS, sans jamais m&amp;rsquo;y être vraiment intéressé et faute d&amp;rsquo;y voir un intérêt immédiat pour mes projets.
-Une fois lancé dans des projets plus complexes, je me suis dit que ce serait bien de séparer mon CSS, afin d&amp;rsquo;avoir une meilleure lisibilité et une meilleure gestion. Ce sont les principales raisons qui m&amp;rsquo;ont poussé à essayer un préprocesseur CSS.</description>
+      <description>https://sass-lang.com/
+Je rencontrais souvent sur CodePen du SASS, SCSS , mais aussi Less, Stylus etc.
+J&amp;rsquo;avais une idée générale que cela représentait une autre syntaxe CSS, sans jamais m&amp;rsquo;y être vraiment intéressé et surtout faute d&amp;rsquo;y voir un intérêt immédiat pour mes projets.
+Une fois lancé dans des projets plus complexes, je me suis dit que ce serait bien de séparer et d&amp;rsquo;organiser mon CSS, afin d&amp;rsquo;avoir une meilleure lisibilité et une meilleure gestion.</description>
     </item>
     
   </channel>
