@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>{ VisualArtisan }</title>
-    <link>https://hub.visualartisan.fr/</link>
-    <description>Recent content on { VisualArtisan }</description>
+    <title>css on { VisualArtisan }</title>
+    <link>https://hub.visualartisan.fr/tags/css/</link>
+    <description>Recent content in css on { VisualArtisan }</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 05 Dec 2023 09:10:22 +0100</lastBuildDate><atom:link href="https://hub.visualartisan.fr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Dec 2023 09:10:22 +0100</lastBuildDate><atom:link href="https://hub.visualartisan.fr/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sass, du CSS, mais en mieux</title>
       <link>https://hub.visualartisan.fr/posts/sass/</link>
@@ -17,17 +17,6 @@
 J&amp;rsquo;avais une idée générale que cela représentait une autre syntaxe CSS, sans jamais m&amp;rsquo;y être vraiment intéressé et faute d&amp;rsquo;y voir un intérêt immédiat pour mes projets.
 Une fois lancé dans des projets plus complexes, je me suis dit que ce serait bien de séparer mon CSS, afin d&amp;rsquo;avoir une meilleure lisibilité et une meilleure gestion. Ce sont les principales raisons qui m&amp;rsquo;ont poussé à essayer un préprocesseur CSS.</description>
     </item>
-    
-    <item>
-      <title>React - Mises à jour d&#39;état</title>
-      <link>https://hub.visualartisan.fr/posts/reactstatehook/</link>
-      <pubDate>Sat, 11 Nov 2023 15:50:17 +0100</pubDate>
-      
-      <guid>https://hub.visualartisan.fr/posts/reactstatehook/</guid>
-      <description>S&amp;rsquo;il y a une chose avec React que j&amp;rsquo;avais du mal à comprendre, ce sont les mises à jour d&amp;rsquo;état et surtout la nature asynchrone de ces mises à jour. Je n&amp;rsquo;arrivais pas à y voir clair et bien comprendre ce qui se passait behind the scenes. C&amp;rsquo;est à dire : quand est-ce que l&amp;rsquo;état était réellement mis à jour ? Quand les composants étaient-ils rendus ? et surtout pourquoi ça fonctionnait ainsi.</description>
-    </item>
-    
-    
     
   </channel>
 </rss>

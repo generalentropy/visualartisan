@@ -142,6 +142,6 @@ Pendant que la requête `fetch` est en attente, React en profite donc pour mettr
 
 Une fois la requête `fetch` terminée, la fonction `fetchMovies` reprend son exécution normale là ou elle s'est arrêtée. La suite s'exécute, y compris la nouvelle mise à jour de l'état avec `setIsLoading(false)` qui démontera le composant.
 
-Ce qu'il faut retenir, c'est que même si le code est écrit de manière linéaire, la nature asynchrone de JavaScript et le système de rendu de React permettent des comportements plus complexes pas forcément visibles ni évidents.
+Ce qu'il faut retenir, c'est que même si le code est écrit de manière linéaire, les fonctions asynchrone et le système de rendu de React permettent des comportements plus complexes pas forcément visibles ni évidents.
 
 > _A noter que depuis React 18 tout est batché (event handler, timeout, promises, et les evenements natifs)_
