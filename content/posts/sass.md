@@ -1,5 +1,5 @@
 ---
-title: "Sass, du CSS, mais en mieux"
+title: "SASS, du CSS, mais en mieux"
 date: 2023-12-05T09:10:22+01:00
 draft: false
 weight: 1
@@ -11,14 +11,15 @@ tags: ["sass", "scss", "css", "preprocessor", "mixin"]
 ---
 
 ![sass article cover](/img/posts/sass/sasscover.jpg)
+https://sass-lang.com/
 
-Je rencontrais souvent sur CodePen du _SASS_, _SCSS_ , _Less_, _Stylus_ etc.
+Je rencontrais souvent sur CodePen du _SASS_, _SCSS_ , mais aussi _Less_, _Stylus_ etc.
 
-J'avais une idée générale que cela représentait une autre syntaxe CSS, sans jamais m'y être vraiment intéressé et faute d'y voir un intérêt immédiat pour mes projets.
+J'avais une idée générale que cela représentait une autre syntaxe CSS, sans jamais m'y être vraiment intéressé et surtout faute d'y voir un intérêt immédiat pour mes projets.
 
-Une fois lancé dans des projets plus complexes, je me suis dit que ce serait bien de séparer mon CSS, afin d'avoir une meilleure lisibilité et une meilleure gestion. Ce sont les principales raisons qui m'ont poussé à essayer un préprocesseur CSS.
+Une fois lancé dans des projets plus complexes, je me suis dit que ce serait bien de séparer et d'organiser mon CSS, afin d'avoir une meilleure lisibilité et une meilleure gestion. Ce sont les principales raisons qui m'ont poussé à essayer un préprocesseur CSS.
 
-Bref, j'ai décidé d'essayer, mon choix s'est porté sur SASS : j'ai adoré et tout de suite accroché !
+J'ai décidé d'essayer, mon choix s'est porté sur SASS : j'ai adoré et tout de suite accroché !
 
 ### Un préprocesseur CSS, dont vous ne pourrez bientôt plus vous passer!
 
@@ -28,11 +29,11 @@ C'est bien rangé, c'est beau.
 
 ![sass](/img/posts/sass/sass1.png)
 
-_Pour la production Sass compile notre code en un seul fichier CSS standard._
+_Pour la production SASS compile notre code en un seul fichier CSS standard._
 
 Et surtout, Sass est facile à apprendre et nous permet d'y aller à notre rythme, car on peut tout à fait mélanger la syntaxe CSS classique et le SCSS.
 
-> Si vous utilisez ou prévoyez d'utiliser Sass, pour l'importation, @use est désormais préféré à @import, et ce pour plusieurs raisons, entre autres :
+> Note: Si vous utilisez ou prévoyez d'utiliser Sass, pour l'importation, @use est désormais préféré à @import, et ce pour plusieurs raisons, entre autres :
 >
 > - **Utilisation** : Introduit comme remplacement de `@import`, `@use` est une manière plus moderne et puissante d'inclure des fichiers Sass. Il est conçu pour résoudre de nombreux problèmes associés à `@import`.
 > - **Comportement** : Il charge les styles, variables, fonctions et mixins d'un autre fichier Sass. Une fois qu'un fichier est utilisé avec `@use`, il devient un "module", et ses membres (variables, mixins, > etc.) sont uniquement accessibles sous un espace de noms par défaut, ce qui aide à prévenir les conflits de nommage.
@@ -44,7 +45,7 @@ Pour faire simple, oubliez @import.
 
 La différence entre SASS et SCSS tient essentiellement à leur syntaxe respective.
 
-Sass n'utilise pas les crochets ni les points-virgules, mais à la manière de Python utilise l'indentation.
+Sass n'utilise pas les accolades ni les points-virgules, mais à la manière de Python utilise l'indentation.
 
 ![sass](/img/posts/sass/sass2.png)
 _Syntaxe indentée_
@@ -56,7 +57,7 @@ SCSS (Sassy CSS) a été ajoutée à Sass pour plusieurs raisons clés, visant �
 
 - Compatible avec le CSS standard. Cela signifie que tout fichier CSS valide est également un fichier SCSS valide. Cette compatibilité facilite l'intégration de Sass dans des projets existants sans avoir besoin de réécrire le CSS existant.
 
-- De fait une syntaxe très similaire à celle du CSS standard, il est facile d'apprendre et d'adopter SCSS. Permet aux développeurs de commencer à utiliser Sass de manière graduelle. Ils peuvent commencer par écrire du CSS standard et introduire progressivement des fonctionnalités SCSS au besoin.
+- De fait, il est facile d'apprendre et d'adopter SCSS. Permet aux développeurs de commencer à utiliser Sass de manière graduelle. Ils peuvent commencer par écrire du CSS standard et introduire progressivement des fonctionnalités SCSS au besoin.
 
 Personnellement, et comme beaucoup, je préfère la syntaxe SCSS.
 
