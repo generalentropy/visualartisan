@@ -1,5 +1,5 @@
 ---
-title: "SASS, du CSS, mais en mieux"
+title: "SASS : du CSS, mais en mieux"
 date: 2023-12-05T09:10:22+01:00
 draft: false
 weight: 1
@@ -13,15 +13,18 @@ tags: ["sass", "scss", "css", "preprocessor", "mixin"]
 ![sass article cover](/img/posts/sass/sasscover.jpg)
 https://sass-lang.com/
 
-Je rencontrais souvent sur CodePen du _SASS_, _SCSS_ , mais aussi _Less_, _Stylus_ etc.
+Lors de mes pérégrinations sur [CodePen](https://codepen.io/), je tombais souvent sur des exemples utilisant SASS, SCSS, mais aussi Less, Stylus, et d'autres...
 
-J'avais une idée générale que cela représentait une autre syntaxe CSS, sans jamais m'y être vraiment intéressé et surtout faute d'y voir un intérêt immédiat pour mes projets.
+C'était un peu obscur. J'avais plus ou moins compris que les autres syntaxes CSS offraient des fonctionnalités additionnelles, mais pour moi, le CSS standard me semblait suffisant.
 
-Une fois lancé dans des projets plus complexes, je me suis dit que ce serait bien de séparer et d'organiser mon CSS, afin d'avoir une meilleure lisibilité et une meilleure gestion. Ce sont les principales raisons qui m'ont poussé à essayer un préprocesseur CSS.
+L'idée d'utiliser des outils supplémentaires ne me paraissait pas pertinente, j'étais déjà bien occupé avec le CSS traditionnel. Je me disais que ces outils n'étaient pas pour moi et qu'ils allaient simplement ajouter une couche de complexité à mon code. Surtout que le prix à payer était cher : apprendre une nouvelle syntaxe.
+C'est pour ces raisons que je ne m'y étais jamais réellement intéressé. Je me trompais.
 
-J'ai décidé d'essayer, mon choix s'est porté sur SASS : j'ai adoré et tout de suite accroché !
+Plus tard, avec davantage d'expérience et engagé dans des projets un peu plus complexes, j'ai réalisé l'importance de séparer et d'organiser mon CSS pour une meilleure lisibilité et une meilleure gestion. À ce moment, j'ai compris que j'allais avoir besoin de plus que ce que le CSS standard pouvait offrir. Cela m'a incité à explorer les préprocesseurs CSS.
 
-### Un préprocesseur CSS, dont vous ne pourrez bientôt plus vous passer!
+Mon choix s'est arrêté sur SASS, et j'ai immédiatement accroché !
+
+### Un préprocesseur CSS, dont vous ne pourrez plus vous passer!
 
 Son système de variables, bien que similaire à certaines fonctionnalités du CSS vanilla, son système de mixins, de nesting (sélecteurs imbriqués), d'import/export, et surtout, la possibilité de splitter facilement ses fichiers pendant le développement en font un outil puissant.
 
@@ -87,7 +90,7 @@ Sans compter que si je souhaite rapidement chercher ".navbar li", je ne trouvera
 
 Certains adorent, ce n'est pas mon cas. A vous de tester!
 
-### Pour installer Sass
+### Pour installer SASS
 
 avec Node.js (installation globale)
 
@@ -107,4 +110,4 @@ Avec Homebrew, pour les utilisateurs de MacOS ou Linux
 brew install sass/sass/sass
 ```
 
-> A noter qu'il existe 2 version de Sass, une version en pur JavaScript et une version Dart un peu plus rapide.
+> A noter qu'il existe plusieurs versions de Sass, notamment une version en pur JavaScript et une version Dart un peu plus rapide.
