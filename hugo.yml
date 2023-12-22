@@ -38,24 +38,24 @@ params:
 
 pygmentsUseClasses: true
 
-menu:
-  main:
-    - identifier: blog
-      name: Articles
-      url: /posts/
-      weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 30
-    - identifier: /archives/
-      name: Archives
-      url: archives
-      weight: 20
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 40
+# menu:
+#   main:
+#     - identifier: blog
+#       name: Articles
+#       url: /posts/
+#       weight: 10
+#     - identifier: tags
+#       name: Tags
+#       url: /tags/
+#       weight: 30
+#     - identifier: /archives/
+#       name: Archives
+#       url: archives
+#       weight: 20
+#     - identifier: search
+#       name: Search
+#       url: /search/
+#       weight: 40
 
 outputs:
   home:
