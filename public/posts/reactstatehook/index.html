@@ -9,14 +9,14 @@
 <meta name="keywords" content="javascript, useState(), code, hook, react">
 <meta name="description" content="S&rsquo;il y a une chose avec React que j&rsquo;avais du mal à comprendre, ce sont les mises à jour d&rsquo;état et surtout la nature asynchrone de ces mises à jour. Je n&rsquo;arrivais pas à y voir clair et bien comprendre ce qui se passait behind the scenes. C&rsquo;est à dire : quand est-ce que l&rsquo;état était réellement mis à jour ? Quand les composants étaient-ils rendus ? et surtout pourquoi ça fonctionnait ainsi.">
 <meta name="author" content="">
-<link rel="canonical" href="https://hub.visualartisan.fr/posts/reactstatehook/">
+<link rel="canonical" href="https://visualartisan.fr/posts/reactstatehook/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
-<link rel="icon" href="https://hub.visualartisan.fr/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://hub.visualartisan.fr/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://hub.visualartisan.fr/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://hub.visualartisan.fr/apple-touch-icon.png">
-<link rel="mask-icon" href="https://hub.visualartisan.fr/safari-pinned-tab.svg">
+<link rel="icon" href="https://visualartisan.fr/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://visualartisan.fr/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://visualartisan.fr/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://visualartisan.fr/apple-touch-icon.png">
+<link rel="mask-icon" href="https://visualartisan.fr/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <noscript>
@@ -58,7 +58,7 @@
 </noscript><meta property="og:title" content="React - Mises à jour d&#39;état" />
 <meta property="og:description" content="S&rsquo;il y a une chose avec React que j&rsquo;avais du mal à comprendre, ce sont les mises à jour d&rsquo;état et surtout la nature asynchrone de ces mises à jour. Je n&rsquo;arrivais pas à y voir clair et bien comprendre ce qui se passait behind the scenes. C&rsquo;est à dire : quand est-ce que l&rsquo;état était réellement mis à jour ? Quand les composants étaient-ils rendus ? et surtout pourquoi ça fonctionnait ainsi." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hub.visualartisan.fr/posts/reactstatehook/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://visualartisan.fr/posts/reactstatehook/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-11-11T15:50:17+01:00" />
 <meta property="article:modified_time" content="2023-11-11T15:50:17+01:00" />
 
@@ -76,13 +76,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "https://hub.visualartisan.fr/posts/"
+      "item": "https://visualartisan.fr/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "React - Mises à jour d'état",
-      "item": "https://hub.visualartisan.fr/posts/reactstatehook/"
+      "item": "https://visualartisan.fr/posts/reactstatehook/"
     }
   ]
 }
@@ -104,14 +104,14 @@
   "dateModified": "2023-11-11T15:50:17+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://hub.visualartisan.fr/posts/reactstatehook/"
+    "@id": "https://visualartisan.fr/posts/reactstatehook/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "{ VisualArtisan }",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://hub.visualartisan.fr/favicon.ico"
+      "url": "https://visualartisan.fr/favicon.ico"
     }
   }
 }
@@ -133,7 +133,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://hub.visualartisan.fr/" accesskey="h" title="{ VisualArtisan } (Alt + H)">{ VisualArtisan }</a>
+            <a href="https://visualartisan.fr/" accesskey="h" title="{ VisualArtisan } (Alt + H)">{ VisualArtisan }</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -273,14 +273,14 @@ Ceci est valable que vous ayez une mise à jour d&rsquo;état ou plusieurs.</p>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://hub.visualartisan.fr/tags/javascript/">javascript</a></li>
-      <li><a href="https://hub.visualartisan.fr/tags/usestate/">useState()</a></li>
-      <li><a href="https://hub.visualartisan.fr/tags/code/">code</a></li>
-      <li><a href="https://hub.visualartisan.fr/tags/hook/">hook</a></li>
-      <li><a href="https://hub.visualartisan.fr/tags/react/">react</a></li>
+      <li><a href="https://visualartisan.fr/tags/javascript/">javascript</a></li>
+      <li><a href="https://visualartisan.fr/tags/usestate/">useState()</a></li>
+      <li><a href="https://visualartisan.fr/tags/code/">code</a></li>
+      <li><a href="https://visualartisan.fr/tags/hook/">hook</a></li>
+      <li><a href="https://visualartisan.fr/tags/react/">react</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://hub.visualartisan.fr/posts/sass/">
+  <a class="prev" href="https://visualartisan.fr/posts/sass/">
     <span class="title">« Prev</span>
     <br>
     <span>SASS : du CSS, mais en mieux</span>
@@ -292,7 +292,7 @@ Ceci est valable que vous ayez une mise à jour d&rsquo;état ou plusieurs.</p>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2023 <a href="https://hub.visualartisan.fr/">{ VisualArtisan }</a></span>
+    <span>&copy; 2024 <a href="https://visualartisan.fr/">{ VisualArtisan }</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

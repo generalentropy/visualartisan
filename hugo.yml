@@ -1,4 +1,4 @@
-baseURL: "https://hub.visualartisan.fr/"
+baseURL: "https://visualartisan.fr/"
 languageCode: fr
 title: "{ VisualArtisan }"
 theme: PaperMod
@@ -14,7 +14,7 @@ params:
   profileMode:
     enabled: true
     title: "Eddy Nicolle"
-    subtitle: "Apprentice of the Algorithmic Arts"
+    subtitle: "Frontend web developer in progress 👨‍💻"
     subtitle2: "Part-time graphic designer | Full-time dog owner"
 
     imageUrl: "img/profil/profil.jpg"
@@ -35,6 +35,9 @@ params:
       url: "https://t.me/eddnic"
     - name: Github
       url: "https://github.com/generalentropy"
+    - name: cv
+      url: "#"
+      title: "Soon!"
 
 pygmentsUseClasses: true
 

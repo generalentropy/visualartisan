@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>preprocessor on { VisualArtisan }</title>
-    <link>https://hub.visualartisan.fr/tags/preprocessor/</link>
+    <link>https://visualartisan.fr/tags/preprocessor/</link>
     <description>Recent content in preprocessor on { VisualArtisan }</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 05 Dec 2023 09:10:22 +0100</lastBuildDate><atom:link href="https://hub.visualartisan.fr/tags/preprocessor/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Dec 2023 09:10:22 +0100</lastBuildDate><atom:link href="https://visualartisan.fr/tags/preprocessor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SASS : du CSS, mais en mieux</title>
-      <link>https://hub.visualartisan.fr/posts/sass/</link>
+      <link>https://visualartisan.fr/posts/sass/</link>
       <pubDate>Tue, 05 Dec 2023 09:10:22 +0100</pubDate>
       
-      <guid>https://hub.visualartisan.fr/posts/sass/</guid>
+      <guid>https://visualartisan.fr/posts/sass/</guid>
       <description>https://sass-lang.com/
 Lors de mes pérégrinations sur CodePen, je tombais souvent sur des exemples utilisant SASS, SCSS, mais aussi Less, Stylus, et d&amp;rsquo;autres&amp;hellip;
 C&amp;rsquo;était un peu obscur. J&amp;rsquo;avais plus ou moins compris que les autres syntaxes CSS offraient des fonctionnalités additionnelles, mais pour moi, le CSS standard me semblait suffisant.
