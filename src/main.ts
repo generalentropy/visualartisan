@@ -12,7 +12,7 @@ import {
 
 const footer = document.getElementById("footer") as HTMLElement;
 
-footer.textContent = `© ${new Date().getFullYear()} - { VisualArtisan }`;
+footer.textContent = `© ${new Date().getFullYear()} - { VisualArtisan.fr }`;
 
 createIcons({
   icons: { Instagram, Linkedin, Github, Send, Palette, Moon, Sun },
