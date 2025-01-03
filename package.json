@@ -13,11 +13,11 @@
     "postcss": "^8.4.49",
     "prettier": "^3.4.2",
     "prettier-plugin-tailwindcss": "^0.6.9",
-    "tailwindcss": "^3.4.16",
+    "tailwindcss": "^3.4.17",
     "typescript": "~5.7.2",
-    "vite": "^6.0.3"
+    "vite": "^6.0.7"
   },
   "dependencies": {
-    "lucide": "^0.468.0"
+    "lucide": "^0.469.0"
   }
 }
